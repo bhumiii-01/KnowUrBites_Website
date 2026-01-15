@@ -291,34 +291,35 @@ const DATA = [
         name:"Seeds",
         items:
         [
-        { name:"Sesame", symptoms:"Redness, breathing trouble, swelling", info:"Symptoms may be severe." },
-        { name:"Sunflower", symptoms:"Itchy skin, rash, swelling", info:"Symptoms from mild to severe." },
-        { name:"Poppy", symptoms:"Rash, eczema, upset stomach", info:"Rare but can be severe." },
-        { name:"Pumpkin", symptoms:"Swelling, GI upset, rash", info:"Uncommon, mild usually." },
-        { name:"Mustard", symptoms:"Coughing, chills, chest tightness", info:"Common in Europe, can be severe." },
-        { name:"Chia", symptoms:"Rash, GI upset", info:"Rare cases documented." },
-        { name:"Flax", symptoms:"Skin rash, stomach pain", info:"Allergy reports increasing." },
-        { name:"Hemp", symptoms:"Itching, skin rash", info:"Mostly mild, rare." },
-        { name:"Cumin", symptoms:"Stomach upset, rash", info:"Some spices may induce allergies." },
-        { name:"Nigella", symptoms:"Skin rash, itching", info:"Very rare allergy." },
-        { name:"Caraway", symptoms:"GI upset, rash", info:"Mild oral symptoms reported." },
-        { name:"Safflower", symptoms:"Skin rash, nausea", info:"Rare before adulthood." },
-        { name:"Pumpkin Seed", symptoms:"Itching, rash", info:"Rare, mild symptoms." },
-        { name:"Sesame Oil", symptoms:"Rash, GI upset", info:"Sensitive individuals may react." },
-        { name:"Sunflower Oil", symptoms:"Skin rash, itching", info:"Mild symptoms documented." },
-        { name:"Linseed", symptoms:"Stomach pain, rash", info:"Another name for flax." },
-        { name:"Pine Nut", symptoms:"Mouth swelling, hives", info:"Trees' nuts are also seeds." },
-        { name:"Watermelon Seed", symptoms:"GI upset, rash", info:"Allergy uncommon." },
-        { name:"Melon Seed", symptoms:"Itching, skin rash", info:"Mild reactions possible." },
-        { name:"Papaya Seed", symptoms:"Stomach upset, rash", info:"Rare allergy." },
-        { name:"Grape Seed", symptoms:"Itchy skin, rash", info:"Very rare allergy." },
-        { name:"Basil Seed", symptoms:"Skin irritation, rash", info:"Limited reports." },
-        { name:"Coriander Seed", symptoms:"Stomach pain, rash", info:"Mild oral allergy syndrome." },
-        { name:"Fennel Seed", symptoms:"Stomach upset, rash", info:"Rare, mild reactions." },
-        { name:"Cardamom", symptoms:"Rash, nausea", info:"Spice seeds can trigger symptoms." },
-      ]},
-      { 
-        name:"Legumes", 
+            { name:"Sesame", symptoms:"Redness, breathing trouble, swelling", info:"Symptoms may be severe." },
+            { name:"Sunflower", symptoms:"Itchy skin, rash, swelling", info:"Symptoms from mild to severe." },
+            { name:"Poppy", symptoms:"Rash, eczema, upset stomach", info:"Rare but can be severe." },
+            { name:"Pumpkin", symptoms:"Swelling, GI upset, rash", info:"Uncommon, mild usually." },
+            { name:"Mustard", symptoms:"Coughing, chills, chest tightness", info:"Common in Europe, can be severe." },
+            { name:"Chia", symptoms:"Rash, GI upset", info:"Rare cases documented." },
+            { name:"Flax", symptoms:"Skin rash, stomach pain", info:"Allergy reports increasing." },
+            { name:"Hemp", symptoms:"Itching, skin rash", info:"Mostly mild, rare." },
+            { name:"Cumin", symptoms:"Stomach upset, rash", info:"Some spices may induce allergies." },
+            { name:"Nigella", symptoms:"Skin rash, itching", info:"Very rare allergy." },
+            { name:"Caraway", symptoms:"GI upset, rash", info:"Mild oral symptoms reported." },
+            { name:"Safflower", symptoms:"Skin rash, nausea", info:"Rare before adulthood." },
+            { name:"Pumpkin Seed", symptoms:"Itching, rash", info:"Rare, mild symptoms." },
+            { name:"Sesame Oil", symptoms:"Rash, GI upset", info:"Sensitive individuals may react." },
+            { name:"Sunflower Oil", symptoms:"Skin rash, itching", info:"Mild symptoms documented." },
+            { name:"Linseed", symptoms:"Stomach pain, rash", info:"Another name for flax." },
+            { name:"Pine Nut", symptoms:"Mouth swelling, hives", info:"Trees' nuts are also seeds." },
+            { name:"Watermelon Seed", symptoms:"GI upset, rash", info:"Allergy uncommon." },
+            { name:"Melon Seed", symptoms:"Itching, skin rash", info:"Mild reactions possible." },
+            { name:"Papaya Seed", symptoms:"Stomach upset, rash", info:"Rare allergy." },
+            { name:"Grape Seed", symptoms:"Itchy skin, rash", info:"Very rare allergy." },
+            { name:"Basil Seed", symptoms:"Skin irritation, rash", info:"Limited reports." },
+            { name:"Coriander Seed", symptoms:"Stomach pain, rash", info:"Mild oral allergy syndrome." },
+            { name:"Fennel Seed", symptoms:"Stomach upset, rash", info:"Rare, mild reactions." },
+            { name:"Cardamom", symptoms:"Rash, nausea", info:"Spice seeds can trigger symptoms." },
+        ]
+    },
+    {
+        name:"Legumes",
         items:[
         { name:"Peanut", symptoms:"Tingling mouth, swelling face, hives", info:"Most common and severe food allergy." },
         { name:"Soybean", symptoms:"Runny nose, skin itch, upset stomach", info:"Among the top food allergens in children." },
@@ -375,7 +376,9 @@ const DATA = [
         { name:"Ice Pop", symptoms:"Rash, mouth itching", info:"Fruit and artificial flavors." },
         { name:"Petit Four", symptoms:"Stomach pain, rash", info:"Egg, nut, milk ingredients." },
       ]},
-      { name:"Drinks", items:[
+      {
+        name:"Drinks",
+        items:[
         { name:"Coffee", symptoms:"Palpitations, rash, headache", info:"Coffee proteins can induce allergy." },
         { name:"Milkshake", symptoms:"Rash, stomach pain", info:"Contains milk and ice cream." },
         { name:"Green Tea", symptoms:"Skin rash, stomach upset", info:"Rare allergy reports." },
@@ -402,7 +405,9 @@ const DATA = [
         { name:"Cola", symptoms:"Rash, stomach pain", info:"Artificial additives as triggers." },
         { name:"Mineral Water", symptoms:"Skin rash, GI upset", info:"Trace minerals may rarely trigger reactions." },
       ]},
-      { name:"Preservatives/Additives", items:[
+      {
+        name:"Preservatives/Additives",
+        items:[
         { name:"MSG", symptoms:"Headache, rash, stomach upset", info:"Common food additive." },
         { name:"Sulfites", symptoms:"Asthma, rash, GI pain", info:"Found in wine and processed food." },
         { name:"Sodium Benzoate", symptoms:"Skin rash, asthma", info:"Used in soft drinks, juices." },
@@ -429,7 +434,9 @@ const DATA = [
         { name:"Sodium Nitrite", symptoms:"Stomach pain, skin irritation", info:"Preservative in meat." },
         { name:"Guar Gum", symptoms:"GI pain, skin rash", info:"Thickener, rare allergy." },
       ]},
-      { name:"Seafood", items:[
+      {
+        name:"Seafood",
+        items:[
         { name:"Shrimp", symptoms:"Shortness of breath, skin swelling", info:"Most common shellfish allergy." },
         { name:"Crab", symptoms:"Abdominal pain, hives, swelling lips", info:"Similar symptoms as shrimp allergy." },
         { name:"Lobster", symptoms:"Skin rash, vomiting, breathing troubles", info:"Common and severe shellfish allergen." },
@@ -456,7 +463,9 @@ const DATA = [
         { name:"Sea Bass", symptoms:"Stomach pain, rash", info:"Rare among fish allergies." },
         { name:"Grouper", symptoms:"Skin rash, swelling", info:"Fish can induce severe reactions." },
       ]},
-      { name:"Meat", items:[
+      {
+        name:"Meat",
+        items:[
         { name:"Chicken", symptoms:"Coughing, stomach ache, rash", info:"Meat allergy less common than others." },
         { name:"Beef", symptoms:"Itchy skin, digestive problems", info:"Alpha-gal allergy can follow tick bites." },
         { name:"Pork", symptoms:"Stomach pain, swelling lips, hives", info:"Red meat allergy more common after tick bites." },
@@ -483,7 +492,9 @@ const DATA = [
         { name:"Bison", symptoms:"Skin rash, stomach pain", info:"Rare documented allergies." },
         { name:"Guinea Pig", symptoms:"Stomach upset, rash", info:"Rare case reports." },
       ]},
-      { name:"Eggs", items:[
+      {
+        name:"Eggs",
+        items:[
         { name:"Hen's Egg", symptoms:"Skin inflammation, stomach pain, runny nose", info:"Most common egg allergy source." },
         { name:"Duck Egg", symptoms:"GI upset, skin rash", info:"Possible cross-reactions." },
         { name:"Quail Egg", symptoms:"Rash, nausea", info:"Less common than hen egg." },
@@ -510,7 +521,9 @@ const DATA = [
         { name:"Poached Egg", symptoms:"Rash, swelling", info:"Allergic to egg proteins." },
         { name:"Egg Tart", symptoms:"Stomach pain, rash", info:"Milk and eggs are allergens." },
       ]},
-      { name:"Miscellaneous", items:[
+      {
+        name:"Miscellaneous",
+        items:[
         { name:"Honey", symptoms:"Stomach upset, bloating, rash", info:"Rare, risk for pollen sensitivities." },
         { name:"Gelatin", symptoms:"Rash, stomach pain, GI upset", info:"Source is animal collagen." },
         { name:"Yeast", symptoms:"Headache, bloating, digestive issues", info:"Present in bread and beer." },
